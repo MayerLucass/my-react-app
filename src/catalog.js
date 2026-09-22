@@ -1,5 +1,5 @@
-// Productos de ejemplo: reemplazar con carta y precios confirmados por el negocio.
-// Para enviar directamente a Latita, cargar el número internacional sin + ni espacios.
+// Sabores vistos en el perfil público de Latita. Confirmar disponibilidad, ingredientes y precios.
+// Para enviar directamente al negocio, configurar el número internacional de WhatsApp (solo dígitos).
 export const brand = {
   name: 'Latita',
   instagram: 'https://www.instagram.com/latita.ar_/',
@@ -8,10 +8,10 @@ export const brand = {
 }
 
 export const products = [
-  { id: 'choco', name: 'Chocolate & crema', category: 'Chocolatosos', description: 'Capas de chocolate, crema suave y un toque crocante.', price: null, tag: 'PARA CHOCOFANS', color: '#6c3c31', cream: '#fff0dd', accent: '#42251e', background: '#ead5c6' },
-  { id: 'frutilla', name: 'Frutilla & vainilla', category: 'Frutales', description: 'Dulce, suave y con toda la onda de la frutilla.', price: null, tag: 'SÚPER FRESCO', color: '#c44f67', cream: '#fff2e4', accent: '#f3aabb', background: '#f6dce1' },
-  { id: 'dulce', name: 'Dulce de leche', category: 'Clásicos', description: 'El clásico que siempre se gana otra cucharada.', price: null, tag: 'CLÁSICO', color: '#ac653b', cream: '#fff0d8', accent: '#ddaa6c', background: '#f2dfc5' },
-  { id: 'cookies', name: 'Cookies & cream', category: 'Chocolatosos', description: 'Crema liviana, galletitas y mucha felicidad.', price: null, tag: 'FAVORITO', color: '#46434c', cream: '#fff9eb', accent: '#bdb9be', background: '#e4e2dc' },
-  { id: 'limon', name: 'Limón cremoso', category: 'Frutales', description: 'Un equilibrio riquísimo entre cremoso y cítrico.', price: null, tag: 'FRESQUITO', color: '#9caf50', cream: '#fffce4', accent: '#dce68b', background: '#eef0cd' },
-  { id: 'vainilla', name: 'Vainilla & caramelo', category: 'Clásicos', description: 'Suave vainilla con caramelo para terminar bien arriba.', price: null, tag: 'UN MIMO', color: '#b47e4c', cream: '#fff3d9', accent: '#eac38e', background: '#f4e9d8' },
+  { id: 'red-velvet', name: 'Red Velvet', category: 'Cremosos', description: 'Un antojo para quienes aman los clásicos con onda.', price: null, tag: 'DESTAPÁ TU ANTOJO', color: '#9e4253', cream: '#fff0e7', accent: '#c87984', background: '#f2d7de' },
+  { id: 'berry-cream', name: 'Berry Cream', category: 'Frutales', description: 'Un toque frutal para tu momento dulce.', price: null, tag: 'DESTAPÁ TU ANTOJO', color: '#b34565', cream: '#fff2e8', accent: '#e7a0b4', background: '#f4dce8' },
+  { id: 'tiramisu', name: 'Tiramisú', category: 'Clásicos', description: 'Una latita para disfrutar cucharada a cucharada.', price: null, tag: 'DESTAPÁ TU ANTOJO', color: '#9b654b', cream: '#fff0dc', accent: '#d9ad8a', background: '#efddcf' },
+  { id: 'chocotorta', name: 'Chocotorta', category: 'Chocolatosos', description: 'Un clásico argentino en formato antojo.', price: null, tag: 'DESTAPÁ TU ANTOJO', color: '#644137', cream: '#f7eadb', accent: '#b17d64', background: '#e9d5c9' },
+  { id: 'choco-cream', name: 'Choco Cream', category: 'Chocolatosos', description: 'Para quienes siempre eligen chocolate.', price: null, tag: 'DESTAPÁ TU ANTOJO', color: '#473535', cream: '#fff1df', accent: '#84635a', background: '#e3d8d4' },
+  { id: 'brownie', name: 'Brownie', category: 'Chocolatosos', description: 'Una pausa bien chocolatosa para disfrutar.', price: null, tag: 'DESTAPÁ TU ANTOJO', color: '#51352f', cream: '#fff1e5', accent: '#93634d', background: '#efded2' },
 ]
